@@ -42,11 +42,11 @@ body {
 .main {
   display: flex;
   padding: 0 6% 0 1%;
+  text-align: center;
 }
 
 .box1 {
   margin: 6% 1% 1rem 4%;
-  text-align: left;
   padding-right: 9%;
 }
 
@@ -90,7 +90,7 @@ h2 {
 }
 
 h3 {
-  color: #f3f3f3;
+  color: white;
   font-family: "Roboto Mono", monospace;
 }
 
