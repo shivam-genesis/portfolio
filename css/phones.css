@@ -1,0 +1,58 @@
+#navbar nav ul {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#navbar nav ul li a {
+    font-size: 1rem;
+}
+
+.main {
+    margin-top: 20%;
+    flex-direction: column;
+}
+
+.box1 {
+    text-align: center;
+    margin: 0;
+    padding: 5%;
+}
+
+.hello {
+    font-size: 3rem;
+}
+
+.name {
+    font-size: 2rem;
+}
+
+.title {
+    font-size: 1.1rem;
+    padding-left: 2%;
+}
+
+h3 {
+    margin-top: 18%;
+    font-size: 1rem;
+    opacity: 0.5;
+    text-shadow: 1rem;
+}
+
+.profile-pic {
+    
+    display: inline-block;
+    position: absolute;
+    height: 6vh;
+    width: 14vw;
+    border-radius: 100%;
+    margin: 2% 0 0 17%;
+}
+
+.bottom-container {
+    margin-top: 16%;
+}
+
+.profile_pic {
+    display: none;
+}
