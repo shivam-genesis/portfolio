@@ -1,46 +1,76 @@
 body {
   margin: 0;
-  text-align: center;
+  background-color: black;
 }
 
-.top-container {
-  background-color: #00adb5;
-  position: relative;
-  padding-top: 14%;
+#navbar::before {
+  background-color: black;
+  height: 100%;
+  width: 100%;
 }
 
-.middle-container {
-  background-color: white;
+#navbar ul {
+  display: flex;
+  list-style: none;
+  padding-left: 1%;
 }
 
-.bottom-container {
-  background-color: #00adb5;
-  padding: 30px;
-}
-
-.profile {
-  text-align: center;
-}
-
-.top-cloud {
-  position: absolute;
-  top: 23%;
-  right: 20%;
-}
-
-.bottom-cloud {
-  position: absolute;
-  top: 50%;
-  left: 22%;
-}
-
-h1 {
+#navbar ul li a {
   font-family: "Karla", sans-serif;
-  font-size: 4.37rem;
+  display: inline-block;
+  text-decoration: none;
   color: #205e61;
-  line-height: 2;
-  margin-top: 0px;
-  margin-bottom: 0;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  padding: 0.5rem 0.9rem;
+}
+
+#navbar ul li a:hover {
+  color: #237a7f;
+  -webkit-transform: scale(1.1);
+  text-shadow: 1px 1px;
+  cursor: pointer;
+  
+}
+
+.active {
+  color: #237a7f;
+  -webkit-transform: scale(1.1);
+  text-shadow: 1px 1px;
+}
+
+.main {
+  display: flex;
+  padding: 0 6% 0 1%;
+}
+
+.box1 {
+  margin: 6% 1% 1rem 4%;
+  text-align: left;
+  padding-right: 9%;
+}
+
+.profile_pic {
+  height: 85%;
+  width: 110%;
+  margin: 7rem 0 1rem 0;
+  border-radius: 5%;
+}
+
+h1{
+  font-family: "Karla", sans-serif;
+  display: inline-block ;
+  color: #237a7f;
+  line-height: 1;
+  margin: 0 0;
+}
+
+.hello {
+  font-size: 4.5rem;
+}
+
+.name {
+  font-size: 3.5rem;
 }
 
 .title {
@@ -48,123 +78,34 @@ h1 {
   font-size: 2.5rem;
   font-weight: normal;
   color: #205e61;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 37%;
+  margin: 1% 0 7% 0;
 }
 
 h2 {
   color: #205e61;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0 0;
   font-family: "Roboto Mono", monospace;
   font-weight: 900;
 }
 
 h3 {
-  color: #00adb5;
+  color: #f3f3f3;
   font-family: "Roboto Mono", monospace;
 }
 
-a {
-  color: #205e61;
-}
-
-p {
-  color: #40514e;
-}
-
-.profile {
-  padding-top: 60px;
-}
-
-.profile-pic {
-  margin-bottom: 30px;
-  height: 150px;
-  width: 150px;
-}
-
-.skill-row1 {
-  width: 50%;
-  margin: 100px auto;
-  text-align: right;
-  line-height: 2;
-}
-
-.skill-row2 {
-  width: 50%;
-  margin: 100px auto;
-  text-align: left;
-  line-height: 2;
-}
-
-.skill-img-1 {
-  height: 25%;
-  width: 25%;
-  margin-top: 30px;
-  margin-right: 33px;
-  float: left;
-}
-
-.skill-img-2 {
-  border-radius: 100%;
-  height: 130px;
-  width: 130px;
-  margin-top: 30px;
-  float: right;
-}
-
-hr {
-  width: 5%;
-  border-style: dotted none none;
-  border-width: 10px;
-  border-color: rgb(54, 167, 159);
-  margin-top: 70px;
-  margin-bottom: 70px;
-}
-
-.contact-me {
-  padding-bottom: 60px;
-}
-
-.xyz {
-  margin-bottom: 40px;
+.bottom-container {
+  background-color: black;
+  text-align: center;
+  margin-top: 7%;
 }
 
 .footer-link {
-  padding: 15px;
+  padding: 5% 2% 2% 0;
   text-decoration: none;
   font-family: "Roboto Mono", monospace;
-  color: #0e7a7e;
+  color: #237a7f;
 }
 
 .footer-copyright {
   color: #eaf6f6;
-}
-
-.btn {
-  background: #11cdd4;
-  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
-  -webkit-border-radius: 17;
-  -moz-border-radius: 17;
-  border-radius: 17px;
-  font-family: "Roboto Mono", monospace;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background: #30e3cb;
-  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
-  text-decoration: none;
 }
