@@ -1,117 +1,62 @@
 body {
-    margin: 0;
-    background-color: black;
-  }
-  
-  #navbar::before {
-    background-color: black;
-    height: 100%;
-    width: 100%;
-  }
-  
-  #navbar ul {
-    display: flex;
-    list-style: none;
-    padding-left: 1%;
-  }
-  
-  #navbar ul li a {
-    font-family: "Karla", sans-serif;
-    display: inline-block;
-    text-decoration: none;
-    color: #205e61;
-    font-size: 1.3rem;
-    font-weight: bolder;
-    padding: 0.5rem 0.9rem;
-  }
-  
-  #navbar ul li a:hover {
-    color: #237a7f;
-    -webkit-transform: scale(1.1);
-    text-shadow: 1px 1px;
-    cursor: pointer;
-    
-  }
-  
-  .active {
-    color: #237a7f;
-    -webkit-transform: scale(1.1);
-    text-shadow: 1px 1px;
-  }
-  
-  .main {
-    display: flex;
-    padding: 0 6% 0 1%;
-  }
-  
-  .box1 {
-    margin: 6% 1% 1rem 4%;
-    text-align: left;
-    padding-right: 9%;
-  }
-  
-  .profile_pic {
-    height: 85%;
-    width: 110%;
-    margin: 7rem 0 1rem 0;
-    border-radius: 5%;
-    opacity: 0.6;
-  }
-  
-  h1{
-    font-family: "Karla", sans-serif;
-    display: inline-block ;
-    color: #237a7f;
-    line-height: 1;
-    margin: 0 0;
-  }
-  
-  .hello {
-    font-size: 4.5rem;
-  }
-  
-  .name {
-    font-size: 3.5rem;
-  }
-  
-  .title {
-    font-family: "Roboto Mono", monospace;
-    font-size: 2.5rem;
-    font-weight: normal;
-    color: #205e61;
-    margin: 1% 0 7% 0;
-  }
-  
-  h2 {
-    color: #205e61;
-    margin: 0 0;
-    font-family: "Roboto Mono", monospace;
-    font-weight: 900;
-  }
-  
-  h3 {
-    color: #f3f3f3;
-    font-family: "Roboto Mono", monospace;
-  }
-  
-  .bottom-container {
-    background-color: black;
-    text-align: center;
-    margin-top: 7%;
-  }
-  
-  .footer-link {
-    padding: 5% 2% 2% 0;
-    text-decoration: none;
-    font-family: "Roboto Mono", monospace;
-    color: #237a7f;
-  }
-  
-  .footer-copyright {
-    color: #eaf6f6;
-  }
-  
-  .profile-pic {
-    display: none;
-  }
-  
+  background-color: black;
+  text-align: center;
+  margin: 0;
+}
+
+.profile-pic {
+  display: none;
+}
+
+#navbar::before {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+  padding-left: 1%;
+}
+
+#navbar ul li a {
+  font-family: "Karla", sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  color: #205e61;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  padding: 0.5rem 0.9rem;
+}
+
+#navbar ul li a:hover {
+  color: #237a7f;
+  -webkit-transform: scale(1.1);
+  text-shadow: 1px 1px;
+  cursor: pointer;
+
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  padding: 6% 10%;
+}
+
+.content {
+  padding: 10% 0;
+}
+
+h2 {
+  font-family: "Karla", sans-serif;
+  display: inline-block;
+  color: #237a7f;
+  line-height: 1;
+  margin: 0 0;
+}
+
+h5 {
+  color: #f3f3f3;
+  font-family: "Roboto Mono", monospace;
+}

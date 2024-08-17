@@ -38,8 +38,14 @@ body {
 
 }
 
-.content {
+.contents {
+    display: flex;
+    flex-direction: column;
     padding: 6% 10%;
+}
+
+.content {
+    padding: 10% 0;
 }
 
 h2 {
