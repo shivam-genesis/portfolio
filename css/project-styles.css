@@ -38,8 +38,9 @@ body {
 
 }
 
-.content {
-    padding: 6% 10%;
+.contents {
+    display: flex;
+    flex-direction: column;
 }
 
 h2 {
