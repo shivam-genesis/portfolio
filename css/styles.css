@@ -22,15 +22,13 @@ body {
   color: #205e61;
   font-size: 1.3rem;
   font-weight: bolder;
-  padding: 0.5rem 0.9rem;
+  margin: 0.5rem 0.9rem;
 }
 
 #navbar ul li a:hover {
   color: #237a7f;
   -webkit-transform: scale(1.1);
   text-shadow: 1px 1px;
-  cursor: pointer;
-  
 }
 
 .active {
@@ -101,10 +99,16 @@ h3 {
 }
 
 .footer-link {
-  padding: 5% 2% 2% 0;
+  margin: 5% 2% 2% 0;
   text-decoration: none;
   font-family: "Roboto Mono", monospace;
+  color: #205e61;
+}
+
+.footer-link:hover {
   color: #237a7f;
+  -webkit-transform: scale(1.1);
+  text-shadow: 1px 1px;
 }
 
 .footer-copyright {
